@@ -43,6 +43,15 @@ body{
     border-radius: 5px;
     background: #fff;
     cursor: pointer;
+    animation: start 1s infinite;
+}
+@keyframes start {
+    0%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
 }
 
 .info_box{
@@ -218,11 +227,11 @@ section .option_list .option{
    cursor: pointer;
 }
 
-/* section .option_list .option:hover{
+section .option_list .option:hover{
     color: #004085;
     background: #cce5ff;
     border-color: #b8daff;
-} */
+}
 
 .option_list .option:last-child{
     margin-bottom: 0px;
