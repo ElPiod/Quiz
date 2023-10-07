@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+    .info_box,
+    .quiz_box{
+        width: 96%;
+    }
+    .info_box .info_list .info{
+        font-size: 14px;
+    }
+    section .option_list .option:hover{
+        opacity: 1;
+    }
+}

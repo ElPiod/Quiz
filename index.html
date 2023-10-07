@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="respon.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Commnercer le Quiz -->
+    <div class="start_btn">
+        <button>Start Quiz</button>
+    </div>  
+
+    <!-- les infos du jeu -->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules of this QUiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>15 seconds</span> each question.</div>
+            <div class="info">2. Once you select your answer, you can't rese</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you re playing.</div>
+            <div class="info">5. You'11 get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awsone Quiz Application</div>
+            <div class="timer">
+                <div class="timer_text">Timer left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- <span>Que signifie HTML</span> -->
+            </div>
+            <div class="option_list">
+                <!-- <div class="option">
+                    <span>Hyper text Prepocesseur</span>
+                   '<div class="icon tick"><i class="fas fa-check"></i></div>'
+                </div>
+                <div class="option">
+                    <span>Hyper Text Markup Language </span>
+                   '<div class="icon cross"><i class="fas fa-times"></i></div>'
+                </div>
+                <div class="option">
+                    <span>Hyper Text Multiple Language </span>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Multi Language </span>
+                </div> -->
+            </div>
+        </section>
+
+         <!-- Quiz Box footer  -->
+         <footer>
+            <div class="total_que">
+                <!-- <span><p>2</p>of<p>5</p></span> -->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- <span>and Sorry, You got only <p>2</p> out of <p>5</p></span> -->
+        </div>
+        <div class="buttons">
+            <button class="restart" id="replay">Replay Quiz</button>
+            <button class="quit" id="quitter">Quit Quiz</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- mon srcipt -->
+    <script src="question.js"></script>
+    <script src="main.js"></script>
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
